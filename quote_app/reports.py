@@ -64,6 +64,7 @@ def _find_cjk_fonts() -> tuple[str, str]:
         custom,
         r"C:\Windows\Fonts\msyh.ttc",
         r"C:\Windows\Fonts\simsun.ttc",
+        "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
         "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
         "/usr/share/fonts/opentype/noto/NotoSansCJKsc-Regular.otf",
     ]
@@ -71,6 +72,7 @@ def _find_cjk_fonts() -> tuple[str, str]:
         os.environ.get("QUOTE_CJK_BOLD_FONT"),
         r"C:\Windows\Fonts\msyhbd.ttc",
         r"C:\Windows\Fonts\simhei.ttf",
+        "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
         "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
         "/usr/share/fonts/opentype/noto/NotoSansCJKsc-Bold.otf",
     ]
